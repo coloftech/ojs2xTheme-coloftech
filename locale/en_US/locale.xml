@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/locale.xml
+  *
+  * Copyright (c) 2013-2015 Simon Fraser University Library
+  * Copyright (c) 2000-2015 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (English) locale.
+  *
+  -->
+
+<locale name="en_US" full_name = "English">
+	<message key="plugins.themes.responsiveTheme.userHome">Dashboard</message>
+	<message key="plugins.themes.responsiveTheme.user">User</message>
+	<message key="plugins.themes.responsiveTheme.userManagement">User Management</message>
+	<message key="plugins.themes.responsiveTheme.editorialTeam">Editorial Team</message>
+	<message key="plugins.themes.responsiveTheme.news">News</message>
+	<message key="plugins.themes.responsiveTheme.contact">Contact</message>
+	<message key="plugins.themes.responsiveTheme.dashboard">Dashboard</message>
+	<message key="plugins.themes.responsiveTheme.profile">Profile</message>
+	<message key="plugins.themes.responsiveTheme.myProfile">My Profile</message>
+	<message key="plugins.themes.responsiveTheme.logout">Log Out</message>
+	<message key="plugins.themes.responsiveTheme.share">Share</message>
+	<message key="plugins.themes.responsiveTheme.advanceSearch">Advanced search</message>
+	<message key="plugins.themes.responsiveTheme.publisherHome">Publisher Home</message>
+	<message key="plugins.themes.responsiveTheme.displayName">Ojs2x Theme</message>
+	<message key="plugins.themes.responsiveTheme.description">A Responsive OJS Theme</message>
+	
+	
+	<message key="plugins.themes.responsiveTheme.notWritable">NOTE: This plugin's stylesheet file, "{$stylesheetFileLocation}", is not currently writable. This file must be writable before the plugin can be used.</message>
+	<message key="plugins.themes.responsiveTheme.notWritablePlugin">NOTE: The journal-based stylesheet option is automatically enabled because this plugin's stylesheet file, "{$stylesheetFileLocation}", is not currently writable.</message>
+	<message key="plugins.themes.responsiveTheme.settings">Settings</message>
+	<message key="plugins.themes.responsiveTheme.pickColour">Pick Colour</message>
+	<message key="plugins.themes.responsiveTheme.header">Theme Header Colour</message>
+	<message key="plugins.themes.responsiveTheme.footer">Theme Footer Colour</message>
+	<message key="plugins.themes.responsiveTheme.footerBottom">Theme Footer Bottom Colour</message>
+	<message key="plugins.themes.responsiveTheme.buttons">Theme Buttons Colour</message>
+	<message key="plugins.themes.responsiveTheme.link">Link</message>
+	<message key="plugins.themes.responsiveTheme.background">Body Background Colour</message>
+	<message key="plugins.themes.responsiveTheme.foreground">Body Text Colour</message>
+	<message key="plugins.themes.responsiveTheme.user.myProfile">My Profile</message>
+	<message key="plugins.themes.responsiveTheme.user.logout">Log Out</message>
+	<message key="plugins.themes.responsiveTheme.user.signOutAsUser">Log Out as User</message>
+	<message key="plugins.themes.responsiveTheme.user.rememberMe">Remember me</message>
+	<message key="plugins.themes.responsiveTheme.perJournal">Journal-based Stylesheet</message>
+	<message key="plugins.themes.responsiveTheme.aboutJournal">About Journal</message>
+	<message key="plugins.themes.responsiveTheme.current">Current Issue</message>
+	<message key="plugins.themes.responsiveTheme.journalHomepageHeader">Home Header</message>
+	<message key="plugins.themes.responsiveTheme.journalHomepageContent">Content</message>
+	<message key="plugins.themes.responsiveTheme.journalPageHeader">Page Header</message>
+	<message key="plugins.themes.responsiveTheme.journalPageFooter">Footer</message>
+	<message key="plugins.themes.responsiveTheme.journalLayout">Layout</message>
+	<message key="plugins.themes.responsiveTheme.navigationBar">Navigation</message>
+
+
+	<message key="manager.setup.geninfo">Information</message>
+	<message key="manager.setup.principal">Principal</message>
+	<message key="manager.setup.technical">Technical</message>
+	<message key="manager.setup.email">Email</message>
+	<message key="manager.setup.sponsor">Sponsor</message>
+	<message key="manager.setup.contributor">Contributors</message>
+	<message key="manager.setup.indexing">Indexing</message>
+	<message key="manager.setup.jhistory">History</message>
+
+
+	<message key="manager.setup.focusAndScope">Focus/Scope</message>
+	<message key="manager.setup.privacys">Privacy</message>
+	<message key="manager.setup.Decision">E.Decision</message>
+	<message key="manager.setup.aboutJournalItem">Others</message>
+	<message key="manager.setup.Archiving">Archiving</message>
+	<message key="manager.setup.contributor">Contributors</message>
+	<message key="manager.setup.reviewerdb">Reviewers</message>
+	<message key="navigation.user.home">Dashboard</message>
+
+</locale>
