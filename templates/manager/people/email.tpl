@@ -10,7 +10,7 @@
 {strip}
 {assign var="pageTitle" value="email.compose"}
 {assign var="pageCrumbTitle" value="email.email"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <script type="text/javascript">
@@ -152,5 +152,5 @@ function deleteAttachment(fileId) {
 <p><input name="send" type="submit" value="{translate key="email.send"}" class="button defaultButton" /> <input type="button" value="{translate key="common.cancel"}" class="button" onclick="history.go(-1)" /></p>
 </form>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

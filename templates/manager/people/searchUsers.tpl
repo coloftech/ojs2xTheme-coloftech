@@ -10,7 +10,7 @@
  *}
 {strip}
 {translate|assign:"pageTitleTranslated" key="manager.people.roleEnrollment" role=$roleName|translate}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <form id="disableUser" method="post" action="{url op="disableUser"}">
@@ -165,5 +165,5 @@ function toggleChecked() {
 <a href="{$backLink}">{translate key="$backLinkLabel"}</a>
 {/if}
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

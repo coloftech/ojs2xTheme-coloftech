@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="common.queue.long.$pageToDisplay"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <ul class="menu">
@@ -21,5 +21,5 @@
 
 {include file="copyeditor/$pageToDisplay.tpl"}
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.emails"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <br/>
@@ -74,5 +74,5 @@
 <a href="{url op="createEmail"}" class="action">{translate key="manager.emails.createEmail"}</a><br />
 <a href="{url op="resetAllEmails"}" onclick="return confirm('{translate|escape:"jsparam" key="manager.emails.confirmResetAll"}')" class="action">{translate key="manager.emails.resetAll"}</a>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

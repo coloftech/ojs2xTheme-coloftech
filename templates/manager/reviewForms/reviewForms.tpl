@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.reviewForms"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <script type="text/javascript">
@@ -84,5 +84,5 @@ $(document).ready(function() { setupTableDND("#dragTable", "moveReviewForm"); })
 
 <a class="action" href="{url op="createReviewForm"}">{translate key="manager.reviewForms.create"}</a>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

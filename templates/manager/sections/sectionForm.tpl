@@ -10,7 +10,7 @@
 {strip}
 {assign var="pageTitle" value="section.section"}
 {assign var="pageCrumbTitle" value="section.section"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <form id="section" method="post" action="{url op="updateSection" path=$sectionId}" onsubmit="return checkEditorAssignments()">
@@ -245,5 +245,5 @@ function checkEditorAssignments() {
 </form>
 
 <p><span class="formRequired">{translate key="common.requiredField"}</span></p>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

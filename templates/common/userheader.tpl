@@ -108,10 +108,10 @@
 
 	<!-- ResponsiveTheme Template Plugin -->
 
-	<link rel="stylesheet" href="{$baseUrl}/plugins/themes/responsiveTheme/css/bootstrap.min.css" type="text/css" />
-	<link rel="stylesheet" href="{$baseUrl}/plugins/themes/responsiveTheme/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="{$baseUrl}/plugins/themes/responsiveTheme/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="{$baseUrl}/plugins/themes/responsiveTheme/css/main.css" type="text/css" />
+	<link rel="stylesheet" href="{$baseUrl}/plugins/themes/ojs2xTheme/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="{$baseUrl}/plugins/themes/ojs2xTheme/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="{$baseUrl}/plugins/themes/ojs2xTheme/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{$baseUrl}/plugins/themes/ojs2xTheme/css/main.css" type="text/css" />
 
 	{foreach from=$stylesheets item=cssUrl}
 		<link rel="stylesheet" href="{$cssUrl}" type="text/css" />
@@ -121,13 +121,13 @@
 	
 	<!-- ResponsiveTheme -->
 	{literal}
-	<script type="text/javascript" src="{/literal}{$baseUrl}{literal}/plugins/themes/responsiveTheme/js/jquery.min.js"></script>
-	<script type="text/javascript" src="{/literal}{$baseUrl}{literal}/plugins/themes/responsiveTheme/js/jquery-browser.js"></script>
+	<script type="text/javascript" src="{/literal}{$baseUrl}{literal}/plugins/themes/ojs2xTheme/js/jquery.min.js"></script>
+	<script type="text/javascript" src="{/literal}{$baseUrl}{literal}/plugins/themes/ojs2xTheme/js/jquery-browser.js"></script>
 	<script type="text/javascript">
 	//Load the new jQuery locally if it could not be loaded from the CDN
 	if (typeof jQuery == 'undefined' || jQuery.fn.jquery != '1.9.1')
 	{
-	    document.write(unescape("%3Cscript src='{/literal}{$baseUrl|escape:"javascript"}{literal}/plugins/themes/responsiveTheme/js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+	    document.write(unescape("%3Cscript src='{/literal}{$baseUrl|escape:"javascript"}{literal}/plugins/themes/ojs2xTheme/js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
 	}
 	</script>
 	
@@ -136,7 +136,7 @@
 	var jQueryNew = window.jQuery.noConflict(true);
 	</script>
 	
-	<script type="text/javascript" src="{/literal}{$baseUrl}{literal}/plugins/themes/responsiveTheme/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="{/literal}{$baseUrl}{literal}/plugins/themes/ojs2xTheme/js/bootstrap.min.js"></script>
 	{/literal}
 	{*literal}
 	<script>

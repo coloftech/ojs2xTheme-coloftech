@@ -80,7 +80,7 @@ function prepBlockFields() {
 
 // -->
 var activetab = 0;
-$('#setupForm').live('submit',function(){
+$('#setupForm').on('submit',function(){
 	//alert('Great');
 
 	var data = $(this).serialize();

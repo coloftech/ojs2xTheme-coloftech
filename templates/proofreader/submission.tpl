@@ -11,7 +11,7 @@
 {strip}
 {translate|assign:"pageTitleTranslated" key="submission.page.editing" id=$submission->getId()}
 {assign var="pageCrumbTitle" value="submission.editing"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 {include file="proofreader/submission/summary.tpl"}
@@ -28,5 +28,5 @@
 
 {include file="proofreader/submission/scheduling.tpl"}
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

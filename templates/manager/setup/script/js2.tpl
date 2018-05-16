@@ -21,7 +21,7 @@ $(function(){
     
   });
 });
-$('.tab-0').live('click',function(){
+$('.tab-0').on('click',function(){
 	$('.nav-tabs li').removeClass('active');
 	$('.tab-pane').removeClass('in active');
 	$(this).parent().addClass('active');
@@ -30,7 +30,7 @@ $('.tab-0').live('click',function(){
 	activetab = 0;
 });
 
-$('.tab-1').live('click',function(){
+$('.tab-1').on('click',function(){
 	$('.nav-tabs li').removeClass('active');
 	$('.tab-pane').removeClass('in active');
 	$(this).parent().addClass('active');
@@ -39,7 +39,7 @@ $('.tab-1').live('click',function(){
 	activetab = 1;
 });
 
-$('.tab-2').live('click',function(){
+$('.tab-2').on('click',function(){
 	$('.nav-tabs li').removeClass('active');
 	$('.tab-pane').removeClass('in active');
 	$(this).parent().addClass('active');
@@ -48,7 +48,7 @@ $('.tab-2').live('click',function(){
 	activetab = 2;
 });
 
-$('.tab-3').live('click',function(){
+$('.tab-3').on('click',function(){
 	$('.nav-tabs li').removeClass('active');
 	$('.tab-pane').removeClass('in active');
 	$(this).parent().addClass('active');
@@ -57,7 +57,7 @@ $('.tab-3').live('click',function(){
 	activetab = 3;
 });
 
-$('.tab-4').live('click',function(){
+$('.tab-4').on('click',function(){
 	$('.nav-tabs li').removeClass('active');
 	$('.tab-pane').removeClass('in active');
 	$(this).parent().addClass('active');
@@ -67,7 +67,7 @@ $('.tab-4').live('click',function(){
 	activetab = 4;
 });
 
-$('.tab-5').live('click',function(){
+$('.tab-5').on('click',function(){
 	$('.nav-tabs li').removeClass('active');
 	$('.tab-pane').removeClass('in active');
 	$(this).parent().addClass('active');
@@ -77,7 +77,7 @@ $('.tab-5').live('click',function(){
 	activetab = 5;
 });
 
-$('.tab-6').live('click',function(){
+$('.tab-6').on('click',function(){
 	$('.nav-tabs li').removeClass('active');
 	$('.tab-pane').removeClass('in active');
 	$(this).parent().addClass('active');

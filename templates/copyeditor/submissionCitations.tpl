@@ -9,10 +9,10 @@
 {strip}
 {translate|assign:"pageTitleTranslated" key="submission.page.citations" id=$submission->getId()}
 {assign var="pageCrumbTitle" value="submission.citations"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 {include file="citation/citationEditor.tpl}
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

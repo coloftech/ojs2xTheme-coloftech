@@ -309,5 +309,5 @@
 		</form>
 	</div>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

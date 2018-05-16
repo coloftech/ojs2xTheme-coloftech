@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="section.sections"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <script type="text/javascript">
@@ -62,5 +62,5 @@ $(document).ready(function() { setupTableDND("#dragTable", "moveSection"); });
 <a class="action" href="{url op="createSection"}">{translate key="manager.sections.create"}</a>
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

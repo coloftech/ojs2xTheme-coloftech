@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="common.languages"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <p><span class="instruct">{translate key="manager.languages.languageInstructions"}</span></p>
@@ -70,5 +70,5 @@
 <p><span class="instruct">{translate key="manager.languages.noneAvailable"}</span></p>
 {/if}
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

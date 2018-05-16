@@ -10,7 +10,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="plugins.themes.responsiveTheme.displayName"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <div id="responsiveThemeSettings">
@@ -91,4 +91,4 @@
 
 <p><span class="formRequired">{translate key="common.requiredField"}</span></p>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}

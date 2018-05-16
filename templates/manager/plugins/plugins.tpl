@@ -7,7 +7,7 @@
  * List available import/export plugins.
  *}
 {strip}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 {if $mainPage}
@@ -65,5 +65,5 @@
 	</ul>
 {/if}
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

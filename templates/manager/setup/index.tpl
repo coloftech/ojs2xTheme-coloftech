@@ -10,7 +10,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.setup.journalSetup"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <h3>{translate key="manager.setup.stepsToJournalSite"}</h3>
@@ -43,5 +43,5 @@
 	</li>
 </ol>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

@@ -74,5 +74,7 @@
 	<message key="manager.setup.contributor">Contributors</message>
 	<message key="manager.setup.reviewerdb">Reviewers</message>
 	<message key="navigation.user.home">Dashboard</message>
+	<message key="common.user.update">Update</message>
+
 
 </locale>

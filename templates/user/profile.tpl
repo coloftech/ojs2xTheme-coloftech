@@ -10,7 +10,7 @@
 {strip}
 {assign var="pageTitle" value="user.profile.editProfile"}
 {url|assign:"url" op="profile"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <form id="profile" method="post" action="{url op="saveProfile"}" enctype="multipart/form-data">
@@ -224,5 +224,5 @@
 </form>
 
 <p><span class="formRequired pull-right">{translate key="common.requiredField"}</span></p>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

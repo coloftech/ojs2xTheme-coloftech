@@ -29,5 +29,5 @@
 <div><a href="{url op="setup" path="4"}">&lt;&lt; {translate key="navigation.previousStep"}</a> | <span class="disabled">{translate key="navigation.nextStep"} &gt;&gt;</span></div>
 {/if}
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

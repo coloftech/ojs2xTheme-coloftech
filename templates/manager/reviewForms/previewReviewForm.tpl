@@ -10,7 +10,7 @@
 {strip}
 {assign var="pageId" value="manager.reviewFormElements.previewReviewForm"}
 {assign var="pageCrumbTitle" value=$pageTitle}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 {assign var=reviewFormId value=$reviewForm->getId()}
@@ -74,5 +74,5 @@
 </form>
 
 <p><span class="formRequired">{translate key="common.requiredField"}</span></p>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.statistics"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <br/>
@@ -30,5 +30,5 @@
 {/foreach}
 </ul>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

@@ -10,7 +10,7 @@
 {strip}
 {assign var="pageTitle" value="editor.issues.futureIssues"}
 {url|assign:"currentUrl" page="layoutEditor" op="futureIssues"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <ul class="menu">
@@ -56,5 +56,5 @@
 {/if}
 </table>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

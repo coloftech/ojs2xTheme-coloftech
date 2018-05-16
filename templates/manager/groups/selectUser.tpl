@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var=pageTitle value="manager.groups.membership.addMember"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <form name="submit" method="post" action="{url op="addMembership" path=$group->getId()}">
@@ -61,5 +61,5 @@
 {/if}
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.journalManagement"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 {if $newVersionAvailable}
@@ -77,5 +77,5 @@
 	{call_hook name="Templates::Manager::Index::Roles"}
 </ul>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

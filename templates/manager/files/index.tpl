@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.filesBrowser"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 {assign var=displayDir value="/$currentDir"}
@@ -79,5 +79,5 @@
 
 <p>{translate key="manager.files.note"}</p>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

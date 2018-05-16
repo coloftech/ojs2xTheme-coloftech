@@ -8,7 +8,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.plugins.$path"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 
@@ -137,5 +137,5 @@
 	</div>
 {/if}
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

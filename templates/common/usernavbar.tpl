@@ -82,10 +82,36 @@
       <!-- Main Menu -->
       <div class="side-menu-container">
         <ul class="nav navbar-nav">
-          <li id="logo"><a href="">
+          <li id="logo"><a href="#logo">
                    {if $displayPageHeaderLogo && is_array($displayPageHeaderLogo)}
-                      <img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}" {if $displayPageHeaderLogoAltText != ''}alt="{$displayPageHeaderLogoAltText|escape}"{else}alt="{translate key="common.pageHeaderLogo.altText"}"{/if} />
-                    {/if}
+          <img class="img-logo" src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" class="img-responsive" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}" {if $displayPageHeaderLogoAltText != ''}alt="{$displayPageHeaderLogoAltText|escape}"{else}alt="{translate key="common.pageHeaderLogo.altText"}"{/if} />
+        {if $displayPageHeaderLogo.width|escape eq $displayPageHeaderLogo.height|escape} 
+          {if $displayPageHeaderTitle}
+            {$displayPageHeaderTitle}
+          {elseif $alternatePageHeader}
+            {$alternatePageHeader}
+          {elseif $siteTitle}
+            {$siteTitle}
+          {else}
+            {$applicationName}
+          {/if}
+        {/if}
+      {*/if}
+      {if !$displayPageHeaderLogo}
+
+        <img src="{$baseUrl}/public/journals/1/homeHeaderLogoImage_en_US.png" onerror="this.class=' hidden'">
+        *}
+      {elseif $displayPageHeaderTitle && is_array($displayPageHeaderTitle)}
+          <img class="img-title" src="{$publicFilesDir}/{$displayPageHeaderTitle.uploadName|escape:"url"}" class="img-responsive" width="{$displayPageHeaderTitle.width|escape}" height="{$displayPageHeaderTitle.height|escape}" {if $displayPageHeaderTitleAltText != ''}alt="{$displayPageHeaderTitleAltText|escape}"{else}alt="{translate key="common.pageHeader.altText"}"{/if} /> {**}
+      {elseif $displayPageHeaderTitle}
+        {$displayPageHeaderTitle}
+      {elseif $alternatePageHeader}
+        {$alternatePageHeader}
+      {elseif $siteTitle}
+        {$siteTitle}
+      {else}
+        {$applicationName}
+      {/if}
 
       </a></li>
           <li id="home"><a href="{url page="index"}">{translate key="navigation.home"}</a></li>

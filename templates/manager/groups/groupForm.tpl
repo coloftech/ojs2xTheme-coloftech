@@ -10,7 +10,7 @@
 {strip}
 {assign var="pageId" value="manager.groups.groupForm"}
 {assign var="pageCrumbTitle" value=$pageTitle}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 <div id="groupFormDiv">
 {if $group}
@@ -69,5 +69,5 @@
 
 <p><span class="formRequired">{translate key="common.requiredField"}</span></p>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

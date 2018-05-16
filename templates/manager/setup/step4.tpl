@@ -568,5 +568,5 @@ function setRegAllowOpts(form) {
 
 </form>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

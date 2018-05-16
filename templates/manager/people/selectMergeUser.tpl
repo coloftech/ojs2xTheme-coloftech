@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.people.mergeUsers"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 <div id="selectMergeUsers">
 <p>{if !empty($oldUserIds)}{translate key="manager.people.mergeUsers.into.description"}{else}{translate key="manager.people.mergeUsers.from.description"}{/if}</p>
@@ -146,5 +146,5 @@
 {/if}
 </div>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

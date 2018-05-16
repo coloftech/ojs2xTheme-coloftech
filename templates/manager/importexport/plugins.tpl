@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.importExport"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <ul>
@@ -18,5 +18,5 @@
 	{/foreach}
 </ul>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

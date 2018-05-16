@@ -1,4 +1,4 @@
-#OJS2XTHEME FOR OJS 2.X current supported ojs version 2.8.3
+#OJS2XTHEME FOR OJS 2.X current supported ojs version 2.4.8.3
 
 -----
 

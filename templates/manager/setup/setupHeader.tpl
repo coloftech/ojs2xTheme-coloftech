@@ -11,7 +11,7 @@
 {strip}
 {assign var="pageCrumbTitle" value="manager.setup.journalSetup"}
 {url|assign:"currentUrl" op="setup"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <ul class="steplist">

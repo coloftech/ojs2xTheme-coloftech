@@ -10,7 +10,7 @@
 {strip}
 {url|assign:"currentUrl" op="people" path="all"}
 {assign var="pageTitle" value="manager.people"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 {if not $userId}
@@ -268,5 +268,5 @@
 {/literal}
 {/if}
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

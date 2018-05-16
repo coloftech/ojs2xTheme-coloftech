@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="user.role.layoutEditor"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <div id="submissions">
@@ -30,5 +30,5 @@
 </ul>
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

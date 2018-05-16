@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.journalManagement"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 {if $newVersionAvailable}
@@ -90,3 +90,4 @@
       </div>
 
 </div>
+{include file="common/userfooter.tpl"}

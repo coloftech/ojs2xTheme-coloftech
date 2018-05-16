@@ -51,7 +51,7 @@ body {color: #000000;}
 	border: none;
     background: linear-gradient(#1E90FF,#6495ED);}
 #container{
-	background: rgba(6,41,253,0.1);
+	/* background: rgba(6,41,253,0.1);*/
 }
 
 .nav-tabs > li > a {

@@ -10,7 +10,7 @@
 {strip}
 {assign var="pageTitle" value="manager.groups"}
 {assign var="pageId" value="manager.groups"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <script type="text/javascript">
@@ -96,5 +96,5 @@ $(document).ready(function() { setupTableDND("#dragTable", "moveGroup"); });
 <a href="{url op="createGroup"}" class="action">{translate key="manager.groups.create"}</a>
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

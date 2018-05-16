@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.reviewFormElements"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 <script type="text/javascript">
 {literal}

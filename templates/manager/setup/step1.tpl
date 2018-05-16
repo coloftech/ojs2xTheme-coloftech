@@ -467,7 +467,7 @@
 		<div class="separator"></div>
 		
 		
-		<p><button type="button" id="changetabbutton" class="btn btn-info btn-sm">Next</button><input type="submit" value="{translate key="common.saveAndContinue"}" class="btn btn-success btn-save hidden" /> <input type="button" value="{translate key="common.cancel"}" class="button" onclick="document.location.href='{url op="setup" escape=false}'" /></p>
+		<p><button type="button" id="changetabbutton" class="btn btn-info btn-sm">Next</button> <input type="submit" value="{translate key="common.user.update"}" class="btn btn-success btn-save btn-sm" /> <input type="button" value="{translate key="common.cancel"}" class="button" onclick="document.location.href='{url op="setup" escape=false}'" /></p>
 		
 		<p><span class="formRequired">{translate key="common.requiredField"}</span></p>
 		
@@ -476,5 +476,5 @@
 	</div>
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

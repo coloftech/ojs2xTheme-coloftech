@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.people.enrollment"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 <div id="syncUsers">
 <h3>{translate key="manager.people.syncUsers"}</h3>
@@ -59,5 +59,5 @@
 
 </form>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

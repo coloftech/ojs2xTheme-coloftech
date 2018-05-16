@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.people"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <h3 id="userFullName">{$user->getFullName()|escape}</h3>
@@ -150,5 +150,5 @@
 	</ul>
 {/if}
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

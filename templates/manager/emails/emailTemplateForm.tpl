@@ -13,7 +13,7 @@
 {else}
 	{assign var="pageTitle" value="manager.emails.createEmail"}
 {/if}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 <div id="emailTemplateForm">
 <form method="post" action="{url op="updateEmail"}">
@@ -76,5 +76,5 @@
 <p><input type="submit" value="{translate key="common.save"}" class="button defaultButton" /> <input type="button" value="{translate key="common.cancel"}" class="button" onclick="document.location.href='{url op="emails" escape=false}'" /> <input type="reset" class="button" /></p>
 </form>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 
