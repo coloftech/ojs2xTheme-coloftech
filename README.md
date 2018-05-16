@@ -1,8 +1,4 @@
-#ON HOLD UNTIL OJS 3
-
-Unforunately, much of what would need to be changed to properly support Boostrap is hardcoded in OJS 2. The plan is to continue development of this theme after OJS 3 is released. 
-
-This theme does not work with the latest versions of OJS 2. 
+#OJS2XTHEME FOR OJS 2.X current supported ojs version 2.8.3
 
 -----
 
@@ -11,10 +7,9 @@ Still MANY css issues to be dealt with.
 
 This project is a baseline for creating custom themes for OJS instances. 
 
-Bootstrap (2.3.0) is applied to the 'out of the box' OJS html templates, which are stored in the 'templates'
+Bootstrap (3.0.0) is applied to the 'out of the box' OJS html templates, which are stored in the 'templates'
 directory. 
 
-A special shoutout and thank you to John Willinsky of the PKP project!
 
  
     This program is free software: you can redistribute it and/or modify
