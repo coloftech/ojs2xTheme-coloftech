@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="rt.readingTools"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <div id="rtAdminStatus">
@@ -42,5 +42,5 @@
 </ul>
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

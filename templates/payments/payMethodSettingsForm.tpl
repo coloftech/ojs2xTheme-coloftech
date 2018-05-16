@@ -9,12 +9,12 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.payment.paymentMethods"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
-<ul class="menu">
+<ul class="pagination">
 	<li><a href="{url op="payments"}">{translate key="manager.payment.options"}</a></li>
-	<li class="current"><a href="{url op="payMethodSettings"}">{translate key="manager.payment.paymentMethods"}</a></li>
+	<li class="active"><a href="{url op="payMethodSettings"}">{translate key="manager.payment.paymentMethods"}</a></li>
 	<li><a href="{url op="viewPayments"}">{translate key="manager.payment.records"}</a></li>
 </ul>
 
@@ -59,5 +59,5 @@ function changePaymentMethod() {
 
 </form>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

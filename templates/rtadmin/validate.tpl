@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="rt.admin.validateUrls"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <p>{translate key="rt.admin.validateUrls.description"}</p>
@@ -37,5 +37,5 @@
 {/iterate}
 <p>{translate key="rt.admin.validateUrls.complete"}</p>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

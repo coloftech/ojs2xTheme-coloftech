@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="rt.admin.settings"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <form method="post" action="{url op="saveSettings"}">
@@ -93,5 +93,5 @@
 
 </form>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

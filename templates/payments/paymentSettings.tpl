@@ -8,11 +8,11 @@
  *}
 {strip}
 {assign var="pageTitle" value="manager.payment.feePaymentOptions"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 <div id="paymentSettings">
-<ul class="menu">
-	<li class="current"><a href="{url op="payments"}">{translate key="manager.payment.options"}</a></li>
+<ul class="pagination">
+	<li class="active"><a href="{url op="payments"}">{translate key="manager.payment.options"}</a></li>
 	<li><a href="{url op="payMethodSettings"}">{translate key="manager.payment.paymentMethods"}</a></li>
 	<li><a href="{url op="viewPayments"}">{translate key="manager.payment.records"}</a></li>
 </ul>
@@ -210,5 +210,5 @@
 <p><input type="submit" value="{translate key="common.save"}" class="button defaultButton" /> <input type="button" value="{translate key="common.cancel"}" class="button" onclick="document.location.href='{url page="manager"}'" /></p>
 </form>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

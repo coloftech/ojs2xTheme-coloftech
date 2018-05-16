@@ -1,0 +1,68 @@
+{**
+ * lib/pkp/templates/announcement/announcements.tpl
+ *
+ * Copyright (c) 2013-2018 Simon Fraser University
+ * Copyright (c) 2000-2018 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Display list of announcements in management.
+ *
+ *}
+{strip}
+{assign var="pageTitle" value="manager.announcements"}
+{assign var="pageId" value="manager.announcements"}
+{include file="common/userheader.tpl"}
+{/strip}
+
+<ul class="pagination">
+	<li class="active"><a href="{url op="announcements"}">{translate key="manager.announcements"}</a></li>
+	<li><a href="{url op="announcementTypes"}">{translate key="manager.announcementTypes"}</a></li>
+</ul>
+
+<br />
+
+<div id="announcementList">
+<table  class="table table-bordered">
+	<thead>
+		
+	<tr class="heading" valign="bottom">
+		<th>{translate key="manager.announcements.dateExpire"}</th>
+		<th>{translate key="manager.announcements.type"}</th>
+		<th>{translate key="manager.announcements.title"}</th>
+		<th>{translate key="common.action"}</th>
+	</tr>
+
+	</thead>
+	<tr>
+		<td colspan="4" class="headseparator">&nbsp;</td>
+	</tr>
+{iterate from=announcements item=announcement}
+	<tr valign="top">
+		<td>{$announcement->getDateExpire()|date_format:$dateFormatShort}</td>
+		<td>{$announcement->getAnnouncementTypeName()}</td>
+		<td>{$announcement->getLocalizedTitle()|escape}</td>
+		<td><a href="{url op="editAnnouncement" path=$announcement->getId()}" class="action">{translate key="common.edit"}</a>&nbsp;|&nbsp;<a href="{url op="deleteAnnouncement" path=$announcement->getId()}" onclick="return confirm('{translate|escape:"jsparam" key="manager.announcements.confirmDelete"}')" class="action">{translate key="common.delete"}</a></td>
+	</tr>
+	<tr>
+		<td colspan="4" class="{if $announcements->eof()}end{/if}separator">&nbsp;</td>
+	</tr>
+{/iterate}
+{if $announcements->wasEmpty()}
+	<tr>
+		<td colspan="4" class="nodata">{translate key="manager.announcements.noneCreated"}</td>
+	</tr>
+	<tr>
+		<td colspan="4" class="endseparator">&nbsp;</td>
+	</tr>
+{else}
+	<tr>
+		<td colspan="2" align="left">{page_info iterator=$announcements}</td>
+		<td colspan="2" align="right">{page_links anchor="announcements" name="announcements" iterator=$announcements}</td>
+	</tr>
+{/if}
+</table>
+
+<a href="{url op="createAnnouncement"}" class="action">{translate key="manager.announcements.create"}</a>
+</div>
+{include file="common/userfooter.tpl"}
+

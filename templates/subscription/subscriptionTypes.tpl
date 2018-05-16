@@ -10,7 +10,7 @@
 {strip}
 {assign var="pageTitle" value="manager.subscriptionTypes"}
 {assign var="pageId" value="manager.subscriptionTypes"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 <script type="text/javascript">
 {literal}
@@ -18,11 +18,11 @@ $(document).ready(function() { setupTableDND("#subscriptionTypesTable", "moveSub
 {/literal}
 </script>
 
-<ul class="menu">
+<ul class="pagination">
 	<li><a href="{url op="subscriptionsSummary"}">{translate key="manager.subscriptions.summary"}</a></li>
 	<li><a href="{url op="subscriptions" path="individual"}">{translate key="manager.individualSubscriptions"}</a></li>
 	<li><a href="{url op="subscriptions" path="institutional"}">{translate key="manager.institutionalSubscriptions"}</a></li>
-	<li class="current"><a href="{url op="subscriptionTypes"}">{translate key="manager.subscriptionTypes"}</a></li>
+	<li class="active"><a href="{url op="subscriptionTypes"}">{translate key="manager.subscriptionTypes"}</a></li>
 	<li><a href="{url op="subscriptionPolicies"}">{translate key="manager.subscriptionPolicies"}</a></li>
 	<li><a href="{url op="payments"}">{translate key="manager.payments"}</a></li>
 </ul>
@@ -74,5 +74,5 @@ $(document).ready(function() { setupTableDND("#subscriptionTypesTable", "moveSub
 <a href="{url op="createSubscriptionType"}" class="action">{translate key="manager.subscriptionTypes.create"}</a>
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

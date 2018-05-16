@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="rt.admin.versions.edit.editVersion"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 {if $versionId}
@@ -47,5 +47,5 @@
 
 </form>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

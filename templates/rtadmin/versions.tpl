@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="rt.versions"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <br/>
@@ -58,5 +58,5 @@
 	<input type="submit" class="button" value="{translate key="rt.admin.versions.importVersion"}" />
 </form>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

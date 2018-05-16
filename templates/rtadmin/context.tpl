@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="rt.admin.contexts.edit.editContext"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 <div id="editContext">
 {if $contextId}
@@ -68,5 +68,5 @@
 
 </form>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

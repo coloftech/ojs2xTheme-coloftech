@@ -302,7 +302,7 @@
 			
 			<div class="separator"></div>
 			
-			<p><button type="button" id="changetabbutton" class="btn btn-info btn-sm">Next</button><input type="submit" value="{translate key="common.saveAndContinue"}" class="button defaultButton" /> <input type="button" value="{translate key="common.cancel"}" class="button" onclick="document.location.href='{url op="setup" escape=false}'" /></p>
+			<p><button type="button" id="changetabbutton" class="btn btn-info btn-sm">Next</button> <input type="submit" value="{translate key="common.user.update"}" class="btn btn-success btn-sm" /> <input type="button" value="{translate key="common.cancel"}" class="button" onclick="document.location.href='{url op="setup" escape=false}'" /></p>
 			
 			<p><span class="formRequired">{translate key="common.requiredField"}</span></p>
 		

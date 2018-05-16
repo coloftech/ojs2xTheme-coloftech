@@ -34,6 +34,12 @@ body {color: #000000;}
 		display: inline-block;
 		text-align: left;
 }
+#headerTitle h1 > img.img-title{
+		display: inline-block;
+		text-align: left;
+		max-height: 100px;
+		max-width: 50%;
+}
 #mainmenu{
 
     background: linear-gradient(#1E90FF,#6495ED);
@@ -74,6 +80,7 @@ body {color: #000000;}
     border-color: #ccc #ccc transparent;
     color: #ffffff;
 }
+
 @media only screen and (max-width: 768px){
 	#headerTitle h1{
 	color: #ffffff;
@@ -257,6 +264,12 @@ h1.page-header {
 #logo, #logo > a, #logo > a > img{padding: 0;}
 #logo > a > img{
 	width: 100%;
+}
+.icon:hover{
+	padding: 0 1px;
+	background-color: dodgerblue;
+	max-height: 10px;
+	overflow: hidden;
 }
 /* small screen */
 @media (max-width: 768px) {

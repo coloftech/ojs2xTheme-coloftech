@@ -10,11 +10,11 @@
 {strip}
 {assign var="pageTitle" value="manager.subscriptions.summary"}
 {assign var="pageId" value="manager.subscriptions.summary"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
-<ul class="menu">
-	<li class="current"><a href="{url op="subscriptionsSummary"}">{translate key="manager.subscriptions.summary"}</a></li>
+<ul class="pagination">
+	<li class="active"><a href="{url op="subscriptionsSummary"}">{translate key="manager.subscriptions.summary"}</a></li>
 	<li><a href="{url op="subscriptions" path="individual"}">{translate key="manager.individualSubscriptions"}</a></li>
 	<li><a href="{url op="subscriptions" path="institutional"}">{translate key="manager.institutionalSubscriptions"}</a></li>
 	<li><a href="{url op="subscriptionTypes"}">{translate key="manager.subscriptionTypes"}</a></li>
@@ -38,5 +38,5 @@
 </ul>
 <a href="{url op="selectSubscriber" path="institutional"}" class="action">{translate key="manager.subscriptions.create"}</a>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

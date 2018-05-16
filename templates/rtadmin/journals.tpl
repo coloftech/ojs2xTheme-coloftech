@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="rt.readingTools"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <h3>{translate key="user.myJournals"}</h3>
@@ -20,5 +20,5 @@
 {/foreach}
 </ul>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

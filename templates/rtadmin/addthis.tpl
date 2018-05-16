@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="rt.admin.sharing"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <form method="post" action='{url op="saveSharingSettings"}'>
@@ -77,5 +77,5 @@
 
 </form>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

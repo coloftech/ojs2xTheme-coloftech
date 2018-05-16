@@ -17,7 +17,7 @@
 	{url|assign:"currentUrl" op="createSubscription" path="individual" userId=$userId}
 {/if}
 {assign var="pageId" value="manager.subscriptions.individualSubscriptionForm"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <br/>
@@ -90,5 +90,5 @@
 
 <p><span class="formRequired">{translate key="common.requiredField"}</span></p>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

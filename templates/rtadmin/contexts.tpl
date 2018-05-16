@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="rt.contexts"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 <script type="text/javascript">
 {literal}
@@ -64,5 +64,5 @@ $(document).ready(function() { setupTableDND("#dragTable",
 <a href="{url op="createContext" path=$version->getVersionId()}" class="action">{translate key="rt.admin.contexts.createContext"}</a><br/>
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 
