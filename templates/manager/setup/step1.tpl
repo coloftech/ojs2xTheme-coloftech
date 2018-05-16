@@ -33,9 +33,9 @@
 		{/if}
 
 <ul class="nav nav-tabs ">
-  <li class="active"><a data-toggle="tab" href="#generalInformation" class="tab-0">{translate key="manager.setup.geninfo"}</a></li>
-  <li><a data-toggle="tab" href="#principalContact" class="tab-1">{translate key="manager.setup.principal"}</a></li>
-  <li><a data-toggle="tab" href="#technicalSupportContact" class="tab-2">{translate key="manager.setup.technical"}</a></li>
+  <li class="active"><a data-toggle="tab" href="#generalInformation" class="tab-0">{translate key="manager.setup.geninfo"} *</a></li>
+  <li><a data-toggle="tab" href="#principalContact" class="tab-1">{translate key="manager.setup.principal"} *</a></li>
+  <li><a data-toggle="tab" href="#technicalSupportContact" class="tab-2">{translate key="manager.setup.technical"} *</a></li>
   <li><a data-toggle="tab" href="#setupEmails" class="tab-3">{translate key="manager.setup.email"}</a></li>
   <li><a data-toggle="tab" href="#setupPublisher" class="tab-4">{translate key="manager.setup.publisher"}</a></li>
   <li><a data-toggle="tab" href="#sponsors" class="tab-5">{translate key="manager.setup.sponsor"}</a></li>
