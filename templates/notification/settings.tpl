@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="notification.settings"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 
 <p>{translate key="notification.settingsDescription"}</p>
@@ -46,5 +46,5 @@
 
 </form>
 
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}
 

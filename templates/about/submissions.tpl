@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="about.submissions"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 
 {if $currentJournal->getSetting('journalPaymentsEnabled') && 
@@ -99,5 +99,5 @@
 	{/if}
 </div>
 {/if}
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}
 

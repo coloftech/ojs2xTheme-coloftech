@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="notification.mailList"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 
 <p><span class="instruct">{translate key="notification.mailListDescription"}</span></p>
@@ -76,5 +76,5 @@
 -->
 </form>
 
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}
 

@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="notification.mailList"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 
 <ul>
@@ -20,4 +20,4 @@
 	</li>
 <ul>
 
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}

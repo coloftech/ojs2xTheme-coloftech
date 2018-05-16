@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="admin.siteAdmin"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 {if $newVersionAvailable}
@@ -40,5 +40,5 @@
 	{call_hook name="Templates::Admin::Index::AdminFunctions"}
 </ul>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

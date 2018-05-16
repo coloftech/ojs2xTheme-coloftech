@@ -10,7 +10,7 @@
 {strip}
 {assign var="pageTitle" value="user.changePassword"}
 {url|assign:"currentUrl" page="user" op="changePassword"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <div id="changePassword">
@@ -48,5 +48,5 @@
 <p></p>
 </form>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

@@ -10,7 +10,7 @@
 {strip}
 {assign var="pageTitle" value="admin.categories"}
 {assign var="pageId" value="admin.categories"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <script type="text/javascript">
@@ -71,5 +71,5 @@ $(document).ready(function() { setupTableDND("#dragTable", "moveCategory"); });
 <a href="{url op="createCategory"}" class="action">{translate key="admin.categories.create"}</a>
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

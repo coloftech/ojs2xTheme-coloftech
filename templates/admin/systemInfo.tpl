@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="admin.systemInformation"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 <div id="systemVersion">
 <h3>{translate key="admin.systemVersion"}</h3>
@@ -98,5 +98,5 @@
 
 <a href="{url op="phpinfo"}" target="_blank">{translate key="admin.phpInfo"}</a>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

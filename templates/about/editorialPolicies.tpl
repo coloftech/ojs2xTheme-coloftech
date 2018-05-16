@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="about.editorialPolicies"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 
 <ul class="nav nav-pills">
@@ -122,5 +122,5 @@
 	{/if}
 {/foreach}
 
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}
 

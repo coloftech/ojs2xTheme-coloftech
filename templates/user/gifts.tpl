@@ -8,7 +8,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="gifts.myGifts"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 {if $acceptGiftSubscriptionPayments}
@@ -58,4 +58,4 @@
 </table>
 {/if}
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}

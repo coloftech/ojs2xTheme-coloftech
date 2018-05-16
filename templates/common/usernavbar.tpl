@@ -96,11 +96,7 @@
             {$applicationName}
           {/if}
         {/if}
-      {*/if}
-      {if !$displayPageHeaderLogo}
-
-        <img src="{$baseUrl}/public/journals/1/homeHeaderLogoImage_en_US.png" onerror="this.class=' hidden'">
-        *}
+     
       {elseif $displayPageHeaderTitle && is_array($displayPageHeaderTitle)}
           <img class="img-title" src="{$publicFilesDir}/{$displayPageHeaderTitle.uploadName|escape:"url"}" class="img-responsive" width="{$displayPageHeaderTitle.width|escape}" height="{$displayPageHeaderTitle.height|escape}" {if $displayPageHeaderTitleAltText != ''}alt="{$displayPageHeaderTitleAltText|escape}"{else}alt="{translate key="common.pageHeader.altText"}"{/if} /> {**}
       {elseif $displayPageHeaderTitle}
@@ -149,6 +145,11 @@
               <li class="navItem" id="navItem-{$navItemKey|escape}"><a href="{if $navItem.isAbsolute}{$navItem.url|escape}{else}{$baseUrl}{$navItem.url|escape}{/if}">{if $navItem.isLiteral}{$navItem.name|escape}{else}{translate key=$navItem.name}{/if}</a></li>
             {/if}
           {/foreach}
+
+              {if $leftSidebarCode}
+              {$leftSidebarCode}
+              {/if}
+
         </ul>
       </div><!-- /.navbar-collapse -->
     </nav>

@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="admin.authSources"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <br />
@@ -66,5 +66,5 @@
 </form>
 </div>
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

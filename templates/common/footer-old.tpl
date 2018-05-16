@@ -6,7 +6,7 @@
 								{assign var=issn value=$currentJournal->getSetting('printIssn')}
 							{/if}
 							{if $issn}
-								{translate|assign"issnText" key="journal.issn"}
+								{translate|assign:"issnText" key="journal.issn"}
 							{/if}
 						{/strip}
 						{if $displayCreativeCommons}
@@ -37,7 +37,7 @@
 			<div id="pageFooter-bottom">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6 footer-left">
+						<div class="col-md-6 footer-left"><p>{$issnText}: {$issn}</p></div>
 						<div class="col-md-6 footer-right">
 							<p>
 								{if $pageFooter}{$pageFooter}{/if}
@@ -55,7 +55,8 @@
             s.parentNode.insertBefore(g,s)}{/literal}(document,'script'));
         </script>
 
-        
+        {get_debug_info}
+        {if $enableDebugStats}{include file=$pqpTemplate}{/if}
     </body>
 </html>
 

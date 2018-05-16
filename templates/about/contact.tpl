@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="about.journalContact"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 <div id="contact">
 {if !empty($journalSettings.mailingAddress)}
@@ -68,5 +68,5 @@
 </div>
 {/if}
 </div>
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}
 

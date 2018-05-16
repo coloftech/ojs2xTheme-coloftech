@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="about.editorialTeam"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 <div id="editorialTeam">
  
@@ -250,5 +250,5 @@
 {/if}
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}
 

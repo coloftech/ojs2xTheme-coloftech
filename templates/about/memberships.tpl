@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="about.memberships"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 <div id="membershipFee">
 <h3>{$membershipFeeName|escape}</h3>
@@ -17,5 +17,5 @@
 <p>{$membershipFeeDescription|nl2br}<br />
 {translate key="manager.subscriptionTypes.cost"} {$membershipFee|string_format:"%.2f"} ({$currency|escape})</p> 
 </div>
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}
 

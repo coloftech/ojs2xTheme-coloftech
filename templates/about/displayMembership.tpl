@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="about.people"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 
 <div id="displayMembership">
@@ -23,5 +23,5 @@
 {/foreach}
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}
 

@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="common.languages"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <h3>{translate key="admin.languages.downloadLocales"}</h3>
@@ -21,5 +21,5 @@
 
 <a href="{url op="languages"}" class="action">{translate key="common.languages"}</a>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

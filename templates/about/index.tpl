@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="about.aboutTheJournal"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 <!--<div class="aboutTheJuornal">
 	{foreach key=key from=$currentJournal->getLocalizedSetting('customAboutItems') item=customAboutItem}
@@ -75,5 +75,5 @@
 </ul>
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}
 

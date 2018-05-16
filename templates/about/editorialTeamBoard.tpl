@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="about.editorialTeam"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 
 {call_hook name="Templates::About::EditorialTeam::Information"}
@@ -51,5 +51,5 @@
   {/foreach}{* $groups *}
 </div>
 
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}
 

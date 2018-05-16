@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="user.subscriptions.mySubscriptions"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <h3>{translate key="about.subscriptionsContact"}</h3>
@@ -182,5 +182,5 @@
 	</table>
 {/if}
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

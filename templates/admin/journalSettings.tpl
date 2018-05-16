@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="admin.journals.journalSettings"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <br />
@@ -82,5 +82,5 @@ function doSubmit() {
 
 <p><span class="formRequired">{translate key="common.requiredField"}</span></p>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

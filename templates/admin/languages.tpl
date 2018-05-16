@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="common.languages"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 
 <form method="post" action="{url op="saveLanguageSettings"}">
@@ -124,5 +124,5 @@
 	{translate key="admin.languages.downloadUnavailable"}
 {/if}{* $downloadAvailable *}
 </div>
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 

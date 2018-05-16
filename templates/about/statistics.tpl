@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="about.statistics"}
-{include file="common/header.tpl"}
+{include file="common/mainheader.tpl"}
 {/strip}
 
 {* WARNING: This page should be kept roughly synchronized with the
@@ -107,5 +107,5 @@
 </div>
 
 
-{include file="common/footer.tpl"}
+{include file="common/mainfooter.tpl"}
 

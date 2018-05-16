@@ -9,7 +9,7 @@
  *}
 {strip}
 {assign var="pageTitle" value="journal.journals"}
-{include file="common/header.tpl"}
+{include file="common/userheader.tpl"}
 {/strip}
 <script type="text/javascript">
 {literal}
@@ -61,5 +61,5 @@ $(document).ready(function() { setupTableDND("#adminJournals", "moveJournal"); }
 </div>
 <p><a href="{url op="createJournal"}" class="action">{translate key="admin.journals.create"}</a></p>
 
-{include file="common/footer.tpl"}
+{include file="common/userfooter.tpl"}
 
